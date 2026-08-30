@@ -33,8 +33,7 @@ export default function SakuraPetals() {
     const canvas = canvasRef.current;
     if (!canvas) return;
 
-    const ctx = canvas.getContext("2d");
-    if (!ctx) return;
+    const ctx = canvas.getContext("2d")!;
 
     let width = window.innerWidth;
     let height = window.innerHeight;
