@@ -14,12 +14,12 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-black/20 to-ink" />
 
       {/* Heading — its own wrapper, its own sizing */}
-      <div className="relative z-20 mx-auto mt-16 w-full max-w-[70vw] px-6 sm:mt-24 sm:max-w-md sm:px-0">
+      <div className="relative z-20 mx-auto mt-16 w-full px-6 sm:mt-24 sm:max-w-md sm:px-0">
         <motion.h1
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.15 }}
-          className="w-full text-right text-8xl leading-[1.05] font-bold text-[#F3C6A5] sm:text-9xl md:text-[8rem] lg:text-[9rem] font-erica"
+          className="w-full text-center text-8xl leading-[1.05] font-bold text-[#F3C6A5] sm:text-9xl md:text-[8rem] lg:text-[9rem] font-erica"
         >
           <span className="block">FALL</span>
           <span className="block">CATS</span>
