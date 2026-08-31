@@ -39,7 +39,7 @@ const roadRage = Road_Rage({
 });
 
 export const metadata: Metadata = {
-  title: "HANAFUBUKI — Sakura Mint",
+  title: "FALL CATS",
   description: "A falling-petal mint experience. Check eligibility, then claim.",
 };
 
