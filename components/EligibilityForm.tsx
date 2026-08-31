@@ -82,10 +82,10 @@ export default function EligibilityForm() {
     >
 
       <h2 className="mb-4 text-center font-erica text-sakura-50">
-        <span className="block text-[#A94F63] text-8xl font-bold leading-none md:text-9xl">
+        <span className="block text-[#A94F63] text-7xl font-bold leading-none md:text-9xl">
           CHECK
         </span>
-        <span className="mt-2 block text-4xl text-[#A94F63] md:text-5xl">
+        <span className="mt-2 block text-3xl text-[#A94F63] md:text-5xl">
           YOUR ELIGIBILITY
         </span>
       </h2>
