@@ -41,7 +41,7 @@ export default function AboutSection() {
       </h2>
 
       <p className="mb-14 max-w-lg text-center font-road-rage text-sm text-sakura-100/60">
-        Fall Cats is a collection of 3,333 pixelated cats, each created with a wide variety of hand-drawn traits, colors, accessories, and backgrounds. Inspired by warm autumn tones and falling leaves, the collection combines a cozy atmosphere with a playful pixel-art style. Every cat features its own unique combination of trait
+                  Fall Cats is a collection of 3,333 pixelated cats, each created with a wide variety of hand-drawn traits, colors, accessories, and backgrounds. Inspired by warm autumn tones and falling leaves, the collection combines a cozy atmosphere with a playful pixel-art style. Every cat features its own unique combination of traits, making each piece part of the larger Fall Cats collection.
       </p>
 
       <div className="grid w-full max-w-4xl grid-cols-1 gap-5 sm:grid-cols-3">
