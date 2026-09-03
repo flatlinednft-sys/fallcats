@@ -41,10 +41,7 @@ export default function AboutSection() {
       </h2>
 
       <p className="mb-14 max-w-lg text-center font-road-rage text-sm text-sakura-100/60">
-        Fall Cats is a collection of hand-drawn strays curled up in the last
-        warmth of the year — sakura pink fading into amber, sweaters over
-        fur, porches full of them. Every cat's got its own coat, its own
-        napping spot, its own little corner of the season.
+        Fall Cats is a collection of 3,333 pixelated cats, each created with a wide variety of hand-drawn traits, colors, accessories, and backgrounds. Inspired by warm autumn tones and falling leaves, the collection combines a cozy atmosphere with a playful pixel-art style. Every cat features its own unique combination of trait
       </p>
 
       <div className="grid w-full max-w-4xl grid-cols-1 gap-5 sm:grid-cols-3">
