@@ -27,10 +27,22 @@ export default function Hero() {
       </div>
 
       {/* Paragraph — separate wrapper, sized on its own */}
-      <div className="relative z-20 mx-auto mt-5 w-full max-w-[80vw] px-6 sm:max-w-md sm:px-0">
-        <p className="text-left text-sm leading-relaxed text-[#F3C6A5] break-words sm:text-base md:text-lg font-[family-name:var(--font-dm-sans)]">
-          Fall Cats is a collection of 3,333 pixelated cats, each created with a wide variety of hand-drawn traits, colors, accessories, and backgrounds. Inspired by warm autumn tones and falling leaves, the collection combines a cozy atmosphere with a playful pixel-art style. Every cat features its own unique combination of traits, making each piece part of the larger Fall Cats collection.
-        </p>
+      <div className="relative font-bold z-20 mx-auto mt-5 w-full max-w-[80vw] px-6 sm:max-w-lg sm:px-0">
+        <motion.div
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.9, delay: 0.35 }}
+          className="flex justify-center"
+        >
+          <a
+            href="https://opensea.io/collection/fall-cats"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-xl border border-[#F3C6A5]/40 bg-[#F3C6A5]/10 px-8 py-3 font-road-rage text-[11px] tracking-widest text-[#F3C6A5] backdrop-blur-sm transition hover:bg-[#F3C6A5]/20"
+          >
+            MINT ON OPENSEA
+          </a>
+        </motion.div>
       </div>
 
     </section>
