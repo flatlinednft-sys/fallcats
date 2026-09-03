@@ -7,19 +7,19 @@ const OPENSEA_URL = "https://opensea.io/collection/fall-cats"; // swap for real 
 const CARDS = [
   {
     title: "MINT ON OPENSEA",
-    body: "Grab a cat straight off the secondary while the leaves are still falling.",
+    body: "Mint FALL CATS on opensea.",
     cta: "MINT NOW",
     href: OPENSEA_URL,
   },
   {
     title: "VIEW COLLECTION",
-    body: "Browse every cat, every coat, every shade of the orchard.",
+    body: "Browse our collection.",
     cta: "BROWSE",
     href: OPENSEA_URL,
   },
   {
     title: "JOIN THE PORCH",
-    body: "Hop into the Discord for drops, traits, and warm cider chatter.",
+    body: "Follow us on Twitter..",
     cta: "JOIN US",
     href: "https://x.com/fallcatsnft",
   },
