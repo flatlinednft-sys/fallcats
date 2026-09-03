@@ -19,7 +19,7 @@ const CARDS = [
   },
   {
     title: "JOIN THE PORCH",
-    body: "Follow us on Twitter..",
+    body: "Follow us on Twitter.",
     cta: "JOIN US",
     href: "https://x.com/fallcatsnft",
   },
